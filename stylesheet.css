@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  margin: 0%;
+}
+
+body {
+  font-family: Roboto;
+  color: #404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #f2d00d;
+  color: #404146;
+  height: 90px;
+  width: 100%;
+  margin: 0%;
+  display: flex;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.header-logo {
+  float: left;
+  margin-left: 5%;
+  font-size: 30px;
+  font-weight: 1000;
+  letter-spacing: 10px;
+  padding: 25px 40px;
+  color: #404146;
+}
+
+.header-logo span {
+  color: rgb(189, 91, 91);
+}
+
+.header-list ul {
+  padding-left: 90px;
+  display: flex;
+  position: relative;
+}
+
+.header-list li {
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #404146;
+}
+
+.main {
+  background-color: #404146;
+  color: #fff;
+}
+
+.copy-container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.copy-container h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  text-align: right;
+  padding: 5%;
+  padding-bottom: 1%;
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0px;
+}
+
+.copy-container h2 {
+  font-size: 56px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  padding-right: 5%;
+  margin-right: 8%;
+}
+
+.copy-container span {
+  color: #f2d00d;
+}
+
+.copy-container img {
+  margin-left: 8%;
+  margin-top: 3%;
+  height:300px;
+  border-radius: 100%;
+  float: left;
+  box-shadow: 0px 10px 10px rgba(226, 206, 20, 0.1);
+}
+
+.about { 
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(189, 91, 91);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img{
+  height: 300px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.2);
+}
+
+.contents-item p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(212, 212, 212);
+  color: rgb(189, 91, 91);
+}
+
+.contact-form p {
+  font-style: italic;
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+  color: #404146;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color: #f2d00d;
+  color: #4f4f4f;
+  font-size: 22px;
+}
+
+.contact-form p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4f4f4f;
+  color: #fff;
+  height: 10px;
+  padding: 40px;
+}
+
+.footer-logo {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #f2d00d;
+}
